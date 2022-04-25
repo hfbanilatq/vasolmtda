@@ -8,9 +8,6 @@
         este es un comentario</p>
     </div>
     <div class="card-footer">
-      <a href="" class="comment-author">
-        <img src="@/assets/logo.png" class="comment-author-img" />
-      </a>
       <router-link
         class="comment-author"
         :to="{ name: 'profile', params: { username: comment.author.username } }"
